@@ -13,7 +13,7 @@ alert("Childhood memories with Grammy!");
 // Me and my sisters and Grammy. Amy and Cindy. Our ages, names.
 
 
-//Global variables //need to have a string, number, boolean, array
+//Global variables //need to have a string, number, boolean, array//these variables can be used anywhere in the code
 
 var         gMom    =  "Grammy";   //string
 var       summer    =   true;      //boolean
@@ -31,7 +31,27 @@ var        drink    =   "creme soda";   //string
 var         temp    =   false;
 
 
-//Method..Argument
+//Method Function with argument Boolean ...Is it summmer time yet?
+
+var summerTime = {
+	summer = true;
+};
+ function 
+	       
+            if (summer === true) {
+            	console.log("It is summer time and now me " + g2 + "and " + g3 + "get to visit " + gMom +"."); //Method function..boolean
+            	 return (true);
+
+            	}else{
+            		console.log("No we have to keep waiting longer."); //Method function..boolean
+            	     return (false);
+               };    
+ };//end method fucntion         
+
+
+
+
+//Method..Argument //accessor?
 
 var gHouse = {
 	name:  "grammy house",
@@ -39,14 +59,19 @@ var gHouse = {
 	city:  "downingtown",
 	state: "Pennsylvania",
 	houseType:  "stone house"
-	outside:  "sidewalks", "trees"
+};
+function grammyHouse (){
+ 
+
+console.log("We are going to "+ this.name);
+ }     
+  gHouse.logDetails = grammyHouse;
+
+gHouse.logDetails();
+
 
 };
 
-function  houseDetails(){   //information about Grammys house.
-	console.log("Every summer me and my sisters" + g2 + "and" + g3 + "go to my " + this.name + "for a couple weeks to spend time with " + gMom");
 
-
-}
 
 
