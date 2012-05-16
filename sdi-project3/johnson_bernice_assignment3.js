@@ -24,9 +24,29 @@ var    candyCost    =   1;    //number
 var       iTruck    =   "icecream truck";   //string
 var           g1    =   "Bernice";   //string
 var           g2    =   "Cindy";     //string
-var           g2    =   "Amy";       //string
+var           g3    =   "Amy";       //string
 var       iCream    =   "icecream";  //string
 var         cake    =   "peanut butter tastykakes";   //string
 var        drink    =   "creme soda";   //string
+var         temp    =   false;
+
+
+//Method..Argument
+
+var gHouse = {
+	name:  "grammy house",
+	street: "grant avenue",
+	city:  "downingtown",
+	state: "Pennsylvania",
+	houseType:  "stone house"
+	outside:  "sidewalks", "trees"
+
+};
+
+function  houseDetails(){   //information about Grammys house.
+	console.log("Every summer me and my sisters" + g2 + "and" + g3 + "go to my " + this.name + "for a couple weeks to spend time with " + gMom");
+
+
+}
 
 
