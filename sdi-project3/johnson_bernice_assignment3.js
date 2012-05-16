@@ -51,26 +51,28 @@ var summerTime = {
 
 
 
-//Method..Argument //accessor?
+//Method..Procedure // with string, string arguments
 
 var gHouse = {
-	name:  "grammy house",
-	street: "grant avenue",
-	city:  "downingtown",
-	state: "Pennsylvania",
-	houseType:  "stone house"
+	name:  "grammy house",  //string
+	street: "grant avenue", //string
+	city:  "downingtown",   //string
+	houseType:  "stone house" //string
+
+	
 };
-function grammyHouse (){
+function grammyHouse (house, city){  //2 string arguments
  
 
-console.log("We are going to "+ this.name);
+console.log("We are going to my  "+  gHouse.name +" for a couple weeks. " + "She lives in "  + gHouse.city + " on " + this.street + " street in a cute " + this.houseType + ".");
  }     
+     
   gHouse.logDetails = grammyHouse;
 
-gHouse.logDetails();
+gHouse.logDetails(); //call the function
 
-
-};
+//end
+ 
 
 
 
