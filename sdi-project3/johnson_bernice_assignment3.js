@@ -41,13 +41,13 @@ var summer ;
  }
 	       
             if (summer === true) {
-            	console.log("It is summer time and now me " +  g2 + " and " +  g3 + " get to visit " + gMom +" and have fun."); //Method function..boolean
+            	console.log("It is summer time and now me, " +  g2 + " and " +  g3 + " get to visit " + gMom +" and have fun."); //Method Procedure..boolean
             	
 
             	}else{
             		console.log("No we have to keep waiting longer."); //Method Procedure..boolean
             	    
-                 
+                
       summerTime(summer) ;         
  //end method fucntion         
 
@@ -68,15 +68,45 @@ function grammyHouse (house, city){  //2 string arguments
  
 
 console.log("We are going to my  "+  gHouse.name +" for a couple weeks. " + "She lives in "  + gHouse.city + " on " + this.street + " street in a cute " + this.houseType + ".");
- }     
+ };                                                                                                                   //this.street is an accessor
+ {
      
   gHouse.logDetails = grammyHouse;
 
 gHouse.logDetails(); //call the function
-
+};
 
 
 //end
+
+//Method Accessor //with property objects//with two object arguments.
+
+var snack1 = {
+    name:" peanutbutter tastykake",
+    
+    drink: "creme soda",
+
+ getName: function (snack) {
+          
+            return(this.name);
+}, 
+ 
+getDrink: function (soda) {
+           return(this.drink);
+
+ }
+};
+var getName = snack1.getName
+var getDrink = snack1.getDrink
+console.log(snack1.getName());
+console.log(snack1.getDrink());
+getName(snack1.getName);
+console.log("The first thing I look forward to doing when we get there is going straight to the upright freezer in the sunroom to get a nice cold " + (snack1.getName()) + (".") 
+console.log(" Then I go inside to greet grammy and she gives me a yummy " + (snack1.getDrink()) + " from the little kitchen pantry."); {
+
+};
+
+
  
 
 
