@@ -31,22 +31,25 @@ var        drink    =   "creme soda";   //string
 var         temp    =   false;
 
 
-//Method Function with argument Boolean ...Is it summmer time yet?
+//Method procedure with argument Boolean ...Is it summmer time yet?
 
-var summerTime = {
-	summer = true;
+var summer ;
+	summer = true; //boolean 
 };
- function 
+ function summerTime (summer){
+
+ }
 	       
             if (summer === true) {
-            	console.log("It is summer time and now me " + g2 + "and " + g3 + "get to visit " + gMom +"."); //Method function..boolean
-            	 return (true);
+            	console.log("It is summer time and now me " +  g2 + " and " +  g3 + " get to visit " + gMom +" and have fun."); //Method function..boolean
+            	
 
             	}else{
-            		console.log("No we have to keep waiting longer."); //Method function..boolean
-            	     return (false);
-               };    
- };//end method fucntion         
+            		console.log("No we have to keep waiting longer."); //Method Procedure..boolean
+            	    
+                 
+      summerTime(summer) ;         
+ //end method fucntion         
 
 
 
@@ -70,6 +73,8 @@ console.log("We are going to my  "+  gHouse.name +" for a couple weeks. " + "She
   gHouse.logDetails = grammyHouse;
 
 gHouse.logDetails(); //call the function
+
+
 
 //end
  
