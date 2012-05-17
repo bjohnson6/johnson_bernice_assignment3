@@ -36,7 +36,7 @@ var         temp    =   false;
 var summer ;
 	summer = true; //boolean 
 };
- function summerTime (summer){
+summerTimeAnswer: function (summer){
 
  }
 	       
@@ -48,7 +48,7 @@ var summer ;
             		console.log("No we have to keep waiting longer."); //Method Procedure..boolean
             	    
                 
-      summerTime(summer) ;         
+      summerTimeAnswer(summer) ;         
  //end method fucntion         
 
 
@@ -64,7 +64,7 @@ var gHouse = {
 
 	
 };
-function grammyHouse (house, city){  //2 string arguments
+grammyHouse: function  (house, city){  //2 string arguments
  
 
 console.log("We are going to my  "+  gHouse.name +" for a couple weeks. " + "She lives in "  + gHouse.city + " on " + this.street + " street in a cute " + this.houseType + ".");
@@ -105,6 +105,8 @@ console.log("The first thing I look forward to doing when we get there is going 
 console.log(" Then I go inside to greet grammy and she gives me a yummy " + (snack1.getDrink()) + " from the little kitchen pantry."); {
 
 };
+
+//Method
 
 
  
