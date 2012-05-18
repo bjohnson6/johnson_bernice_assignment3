@@ -88,11 +88,11 @@ var snack1 = {
 
  getName: function (snack) {     //Method Accessor..object argument
           
-            return(this.name);
+            return(this.name);  //getting the snack arguement..returns peanut butter tastykake
 }, 
  
 getDrink: function (soda) {      //Method Accessor..object argument
-           return(this.drink);  
+           return(this.drink);   // getting the soda argument..returns creme soda
 
  }
 };
@@ -105,6 +105,7 @@ console.log("The first thing I look forward to doing when we get there is going 
 console.log(" Then I go inside to greet grammy and she gives me a yummy " + (snack1.getDrink()) + " from the little kitchen pantry."); {
 
 };
+//end
 
 //Method Function //with property number//number argument
 
@@ -115,19 +116,24 @@ console.log(" Then I go inside to greet grammy and she gives me a yummy " + (sna
  getMinutes: function (number) {    //method function with number argument    
  	minutes = this.minutes       
 
- 	return(this.minutes);        
+ 	return(this.minutes);   //getting the number argument...returns 20
  }, 
 };   console.log( " We can hear the musical melody of the icecream truck coming down the road. Time to get icecream, it will take " + (this.minutes) + " minutes to get here."); 
 
 var getMinutes = timeTillIcecream.getMinutes   
- getMinutes(timeTillIcecream.getMinutes);  	
+ getMinutes(timeTillIcecream.getMinutes);  	//calling 
 
 i=10; 
 while (i<=20)   //while loop
-	{ console.log("The ice-cream truck will be here in " + i +"  minutes."); 
+	{ console.log("The ice-cream truck will be here in " + i +"  minutes."); //how many minutes it will take for the icecream truck.
      console.log("<br />");
       i++; 
   }  
+
+};
+//end
+
+//Method      //array 
 
 
  
