@@ -133,7 +133,25 @@ while (i<=20)   //while loop
 };
 //end
 
-//Method      //array 
+//Method  Mutator   //array  //for loop
+
+var koolaid ={
+   flavor : [ "grape", "cherry", "strawberry"]; //array
+   cups: 6;         //number
+   money : 25 ;     //number
+   total : 6 * 25;  //math
+
+};
+
+//for loop code...I was going to use this for my koolaid array flavors.
+// var i=0;
+//for (i=0;i<=2;i++)
+//{
+//document.write("Cherry flavor " + i);
+//document.write("<br />");
+}
+
+
 
 
  
