@@ -106,7 +106,29 @@ console.log(" Then I go inside to greet grammy and she gives me a yummy " + (sna
 
 };
 
-//Method
+//Method Function //with property number
+
+var timeTillIcecream = function(number) {
+    	var minutesTillIcecream = 30
+    	var timeToGetThere = 10      //add i
+    	while (minutesTillIcecream > timeToGetThere) {
+    		console.log( " We can hear the musical melody of the icecream truck. Time to get icecream, it takes " + timeToGetThere + " minutes unitil the icecream truck comes " + minutesTillIcecream+ " minutes");
+    		return minutesTillIcecream-timeToGetThere;
+    };
+     console.log ("We have" + minutesTillIcecream + "minutes left until the icecream truck gets here.") ;
+     return minutesTillIcecream;		
+     timeTillIcecream(20); 
+
+    	};
+
+    	//while loop code 
+    	var i=0;
+while (i<=5)
+  {
+  document.write("The number is " + i);
+  document.write("<br />");
+  i++;
+  }
 
 
  
