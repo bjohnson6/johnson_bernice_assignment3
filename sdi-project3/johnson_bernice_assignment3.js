@@ -108,27 +108,26 @@ console.log(" Then I go inside to greet grammy and she gives me a yummy " + (sna
 
 //Method Function //with property number//number argument
 
-var timeTillIcecream = function(number) {
-    	var minutesTillIcecream = 30
-    	var timeToGetThere = 10      //add i
-    	while (minutesTillIcecream > timeToGetThere) {
-    		console.log( " We can hear the musical melody of the icecream truck coming down the road. Time to get icecream, it takes " + timeToGetThere + " minutes unitil the icecream truck comes " + minutesTillIcecream+ " minutes");
-    		return minutesTillIcecream-timeToGetThere;
-    };
-     console.log ("We have" + minutesTillIcecream + "minutes left until the icecream truck gets here.") ;
-     return minutesTillIcecream;		
-     timeTillIcecream(20); 
+ var timeTillIcecream = {   //funtion var
+     minutes: 30 - 10,      //property number
+ 	
 
-    	};
+ getMinutes: function (number) {    //method function with number argument    
+ 	minutes = this.minutes       
 
-    	//while loop code 
-    	var i=0;
-    while (i<=5)
-  {
-  document.write("The number is " + i);
-  document.write("<br />");
-  i++;
-  }
+ 	return(this.minutes);        
+ }, 
+};   console.log( " We can hear the musical melody of the icecream truck coming down the road. Time to get icecream, it will take " + (this.minutes) + " minutes to get here."); 
+
+var getMinutes = timeTillIcecream.getMinutes   
+ getMinutes(timeTillIcecream.getMinutes);  	
+
+i=10; 
+while (i<=20)   //while loop
+	{ console.log("The ice-cream truck will be here in " + i +"  minutes."); 
+     console.log("<br />");
+      i++; 
+  }  
 
 
  
