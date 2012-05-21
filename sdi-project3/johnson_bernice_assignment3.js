@@ -105,8 +105,8 @@ var getDrink = snack1.getDrink
 console.log(snack1.getName()); //calling the getName method
 console.log(snack1.getDrink()); //calling the getDrink method
 getName(snack1.getName);        //calling
-console.log("The first thing I look forward to doing when we get there is going straight to the upright freezer in the sunroom to get a nice cold " + (snack1.getName()) + (".") 
-console.log(" Then I go inside to greet grammy and she gives me a yummy " + (snack1.getDrink()) + " from the little kitchen pantry."); {
+console.log("The first thing I look forward to doing when we get there is going straight to the upright freezer in the sunroom to get a nice cold ") + (snack1.getName()) + (".") 
+console.log(" Then I go inside to greet grammy and she gives me a yummy ") + (snack1.getDrink()) + (" from the little kitchen pantry."); 
 
 };
 //end
