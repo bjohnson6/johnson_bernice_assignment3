@@ -56,30 +56,24 @@ if (summerTime.answer=== true) {
 
 
 
-//Method..Procedure // with string, string arguments
+//Method..Procedure // with string, arguments
+var gHouse = { 	
+name:  "grammys house",  	
+street: "grant avenue", 	
+city:  "downingtown",   
+	houseType:  "stone house",
 
-var gHouse = {
-	name:  "grammy house",  //string
-	street: "grant avenue", //string
-	city:  "downingtown",   //string
-	houseType:  "stone house" //string
-
-	
+ 	
+ grammyHouseGoTo: function  (place){}, 
+} 
+console.log("We are going to my  "+  gHouse.name +" for a couple weeks summer vacation. " + "She lives in "  + gHouse.city + " on " + gHouse.street + " street in a cute " + gHouse.houseType + ".");  
+                                                                           
 };
-grammyHouse: function  (house, city){  //2 string arguments
- 
-
-console.log("We are going to my  "+  gHouse.name +" for a couple weeks. " + "She lives in "  + gHouse.city + " on " + this.street + " street in a cute " + this.houseType + ".");
- };                                                                                                                   //this.street is an accessor
- {
-     
-  gHouse.logDetails = grammyHouse;
-
-gHouse.logDetails(); //call the function
-};
+///end method
 
 
-//end
+
+
 
 //Method Accessor //with property objects//with two object arguments.
 
