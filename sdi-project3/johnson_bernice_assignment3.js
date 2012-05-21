@@ -32,26 +32,34 @@ var         temp    =   false;
 
 
 //Method procedure with argument Boolean ...Is it summmer time yet?
-var summerTime = {
- answer: 90<60,
+var           g1    =   "Bernice";   //string
+var           g2    =   "Cindy";     //string
+var           g3    =   "Amy";  
+var          gMom = "grammy";
+
+var summer = {   //variables
+ temp: 90 > 60,  //properties
 
  
 
- getIsItSummer: function () {
+ summerTime: function (answer) {}, //boolean argument..answer the question is it summer time yet?
+};
 
-if (summerTime.answer=== true) {
+if (summer.temp === true) {
  console.log ("It is finally summer time now and me, " +  g2 + " and " +  g3 + " get to visit " + gMom +" and have fun.") ;  
      
 }else{
  console.log ("no.");
 }
+var answer = true
+
+summer.summerTime(true); //calling
+
+//end method fucntion         
+
+
+
  
-
-
-
-
-
- //end method fucntion         
 
 
 
@@ -66,9 +74,9 @@ city:  "downingtown",
  	
  grammyHouseGoTo: function  (place){}, 
 } 
-console.log("We are going to my  "+  gHouse.name +" for a couple weeks summer vacation. " + "She lives in "  + gHouse.city + " on " + gHouse.street + " street in a cute " + gHouse.houseType + ".");  
+console.log("My grammy lives in "  + gHouse.city + " on " + gHouse.street + " street in a cute " + gHouse.houseType + ".");  
                                                                            
-};
+
 ///end method
 
 
