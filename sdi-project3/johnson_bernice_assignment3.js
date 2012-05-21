@@ -32,23 +32,25 @@ var         temp    =   false;
 
 
 //Method procedure with argument Boolean ...Is it summmer time yet?
+var summerTime = {
+ answer: 90<60,
 
-var summer ;
-	summer = true; //boolean 
-};
-summerTimeAnswer: function (summer){
+ 
 
- }
-	       
-            if (summer === true) {
-            	console.log("It is summer time and now me, " +  g2 + " and " +  g3 + " get to visit " + gMom +" and have fun."); //Method Procedure..boolean
-            	
+ getIsItSummer: function () {
 
-            	}else{
-            		console.log("No we have to keep waiting longer."); //Method Procedure..boolean
-            	    
-                
-      summerTimeAnswer(summer) ;         
+if (summerTime.answer=== true) {
+ console.log ("It is finally summer time now and me, " +  g2 + " and " +  g3 + " get to visit " + gMom +" and have fun.") ;  
+     
+}else{
+ console.log ("no.");
+}
+ 
+
+
+
+
+
  //end method fucntion         
 
 
@@ -135,13 +137,13 @@ while (i<=20)   //while loop
 
 //Method  Mutator   //array  //for loop
 
-var koolaid ={
-   flavor : [ "grape", "cherry", "strawberry"]; //array
-   cups: 6;         //number
-   money : 25 ;     //number
-   total : 6 * 25;  //math
+//var koolaid ={
+  // flavor : [ "grape", "cherry", "strawberry"]; //array
+  // cups: 6;         //number
+  // money : 25 ;     //number
+  // total : 6 * 25;  //math
 
-};
+//};
 
 //for loop code...I was going to use this for my koolaid array flavors.
 // var i=0;
@@ -149,7 +151,7 @@ var koolaid ={
 //{
 //document.write("Cherry flavor " + i);
 //document.write("<br />");
-}
+//}
 
 
 

@@ -6,18 +6,18 @@ var food = [ {
 
 	"name" : "ice cream",
 	"type" : "desert",
-	"food" : "yes"
+	"food" : "yes",
 },
 {
     "name" : "creme soda",
-    "type"  : "drink"
-    "food" :  "no"
+    "type"  : "drink",
+    "food" :  "no",
 },
 
 {
     "name" : "Grammy",
-     "type" : "place"
-     "food" : "no"
+     "type" : "place",
+     "food" : "no",
 
 }
 
