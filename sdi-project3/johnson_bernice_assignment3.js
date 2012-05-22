@@ -109,7 +109,7 @@ console.log("The first thing I look forward to doing when we get there is going 
 console.log(" Then I go inside to greet grammy and she gives me a yummy ") + (snack1.getDrink()) + (" from the little kitchen pantry."); 
 
 
-//WEIRD COMMENT IN FIREBUG: "_firebugIgnorecreme soda from the little kitchen pantry."
+//WEIRD COMMENT IN FIREBUG: "_firebugIgnorecreme soda from the little kitchen pantry." Will not display my (snack1.getDrink()) should be peanutbutter tastykake & creme soda.
 //end
 
 //Method Function //with property number//number argument
@@ -141,20 +141,63 @@ while (i<=20)   //while loop
 //Method  Mutator   //array  //for loop
 
 //var koolaid ={
-  // flavor : [ "grape", "cherry", "strawberry"]; //array
-  // cups: 6;         //number
-  // money : 25 ;     //number
-  // total : 6 * 25;  //math
+  // flavor:  [ "grape", "cherry", "strawberry"], //array
+  // cups:   6,        //number
+  // money:  25 , //number
+  // total:  6 * 25,   //math
+  
+   //makeKoolaid: function ( )
 
-//};
+
+var flavor=  [ "grape", "cherry", "strawberry"]; //array
+
+console.log (flavor[0]); //returns grape
+pennyCandy    =   ["candy fish", "now and laters", "tootsy rolls" ]; //array
+
+
+//var pennyStore = "woodys"; 
+var store = "woodys";
+console.log(store);
+console.log("Every summer we make koolaid for the truck drivers in the back yard then we go to ") + store + (".");
+     
+     //profitForKoolaid: function (cupsSold) (), 
+   // if (cups === 6)
+     //   console.log("We have to sell " + cups + ("cups to make enough to go to the") + store + (".") + ("It costs") + money + ("cents") + ("for each cup.");
+    //if (total === true);
+   //  console.log ("We will have a dollar fifty to spend on penny candy. ");
+                //  var cupsSold = total,
+                // return (cupsSold)
+ //}else{
+  //  console.log ("We wont have enough to get any candy.");
+
+    //attempted to add this info
+    console.log (flavor[0]); //returns grape
+pennyCandy    =   ["candy fish", "now and laters", "tootsy rolls" ]; //array
+
+
+
+var koolaid ={
+   flavor:  [ "grape", "cherry", "strawberry"], //array
+   cups:   6,        //number
+   money:  25 , //number
+   totalProfit:  6 * 25,   //math
+  
+   //getTotalProfit: function () { 
+   //      return(this.totalProfit);
+//console.log(koolaid.gettotalProfit());
+}
+
+
+
+ 
 
 //for loop code...I was going to use this for my koolaid array flavors.
-// var i=0;
+//var i=0;
 //for (i=0;i<=2;i++)
 //{
-//document.write("Cherry flavor " + i);
-//document.write("<br />");
-//}
+//console.log("Cherry flavor " + i);
+//console.log("<br />");
+
 
 
 
