@@ -108,7 +108,8 @@ getName(snack1.getName);        //calling
 console.log("The first thing I look forward to doing when we get there is going straight to the upright freezer in the sunroom to get a nice cold ") + (snack1.getName()) + (".") 
 console.log(" Then I go inside to greet grammy and she gives me a yummy ") + (snack1.getDrink()) + (" from the little kitchen pantry."); 
 
-};
+
+//WEIRD COMMENT IN FIREBUG: "_firebugIgnorecreme soda from the little kitchen pantry."
 //end
 
 //Method Function //with property number//number argument
@@ -122,7 +123,7 @@ console.log(" Then I go inside to greet grammy and she gives me a yummy ") + (sn
 
  	return(this.minutes);   //getting the number argument...returns 20
  }, 
-};   console.log( " We can hear the musical melody of the icecream truck coming down the road. Time to get icecream, it will take " + (this.minutes) + " minutes to get here."); 
+};   console.log( " We can hear the musical melody of the icecream truck coming down the road. Time to get icecream, it will take " + (timeTillIcecream.minutes) + " minutes to get here."); 
 
 var getMinutes = timeTillIcecream.getMinutes   
  getMinutes(timeTillIcecream.getMinutes);  	//calling 
@@ -134,7 +135,7 @@ while (i<=20)   //while loop
       i++; 
   }  
 
-};
+
 //end
 
 //Method  Mutator   //array  //for loop

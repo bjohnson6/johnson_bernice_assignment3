@@ -2,14 +2,14 @@
 //Sdi project 3 12/05
 
 
-var food = [ {
+var  snack1 = [ {
 
-	"name" : "ice cream",
+	"icream" : "ice cream",
 	"type" : "desert",
 	"food" : "yes",
 },
 {
-    "name" : "creme soda",
+    "drink" : "creme soda",
     "type"  : "drink",
     "food" :  "no",
 },
